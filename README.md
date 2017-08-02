@@ -27,7 +27,7 @@ This installs the lb command-line tool for scaffolding and modifying LoopBack ap
 #### create a LoopBack application
 ```
 $ lb
-? What's the name of your application? library
+? What's the name of your application? ***library***
 ? Enter name of the directory to contain the project: library
    create library/
     info change the working directory to library
