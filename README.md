@@ -132,7 +132,7 @@ The three main directories are:
 - /client – Contains .js, .html, .css, and all other static files.
 - /common – This folder is common to both the server and the client. Model files go here.
 
-#### Testing Your REST API
+#### Testing Your REST API in LoopBack GUI
 
 API Explorer which is a built-in tool used as a client for the service.
 In a separate window, start MongoDB with:
@@ -143,6 +143,11 @@ Run the application with:
 
 In your browser, go to http://localhost:3000/explorer/. You can see your entities with the list of operations available. 
 
+[![](https://raw.githubusercontent.com/nagaraja-bollu/loopback/master/Images/apiexplorer.png)]()
 
+### Conclusion
+With LoopBack you are apt to write less code, compared to Express.js. It eliminates the need to write handlers for every endpoint, supports filters for easy search and pagination, stores code in separate model JS files, much more. Among the top advantages are prompt and easy generation, design and test of code for APIs. It allows you to focus on application-specific problems and business logic, and therefore build secure, well-documented, and high-performance APIs.
 
+### References
+http://loopback.io/doc/en/lb3/Getting-started-with-LoopBack.html
 
