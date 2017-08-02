@@ -4,7 +4,7 @@
  LoopBack is a highly extensible Node.js API framework from IBM. LoopBack APIs are capable of connecting devices, and integrate with Android and AngularJS SDKs for app creation. As for database compatibility, it supports Oracle, Mongo, and SQL. The team behind Express created it, so its built on the framework making it an easy API tool for Express pros.
 
 
-#####It enables you to:
+##### It enables you to:
 
 - Create dynamic end-to-end REST APIs with little or no coding.
 - Access data from Oracle, MySQL, PostgreSQL, MS SQL Server, MongoDB, SOAP and other REST APIs.
