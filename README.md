@@ -65,3 +65,72 @@ lb datasource
 ```
 You can [customize the mongodb datasource connection](https://loopback.io/doc/en/lb2/MongoDB-connector.html#customizing-mongodb-configuration-for-testsexamples "customize the mongodb datasource connection")
 
+#### Lets add a model - "book"
+
+```
+lb model
+? Enter the model name: book
+? Select the datasource to attach book to: library (mongodb)
+? Select model's base class PersistedModel
+? Expose book via the REST API? Yes
+? Custom plural form (used to build REST URL):
+? Common model or server only? common
+Let's add some book properties now.
+```
+#### Lets add the properties for the model
+
+```
+Enter an empty property name when done.
+? Property name: title
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another book property.
+Enter an empty property name when done.
+? Property name: author
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another book property.
+Enter an empty property name when done.
+? Property name: genre
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]: 
+
+Let's add another book property.
+Enter an empty property name when done.
+? Property name: price
+   invoke   loopback:property
+? Property type: number
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another book property.
+Enter an empty property name when done.
+? Property name: isAvailable
+   invoke   loopback:property
+? Property type: boolean
+? Required? No
+? Default value[leave blank for none]:
+```
+Enter an empty property name to indicate you are done defining properties.
+
+- The model generator will create two files which define the model in the application’s common/models: book.json and book.js.
+- The JSON file specifies all metadata about the entity: properties, relations, validations, roles and method names.
+- The JavaScript file is used to define additional behaviour, and to specify remote hooks to be called before or after certain operations (e.g., create, update, or delete).
+
+
+
+
+
+
+
+
+
+
