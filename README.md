@@ -50,5 +50,18 @@ Next steps:
    ` $ node .`
 
 
-#### Lets add a model
-`lb`
+#### Lets add a datasource
+```
+lb datasource
+? Enter the datasource name: library
+? Select the connector for library: MongoDB (supported by StrongLoop)
+? Connection String url to override other settings (eg: mongodb://username:password@hostname:port/database):
+? host:
+? port:
+? user:
+? password:
+? database: library
+? Install loopback-connector-mongodb@^1.4 Yes
+```
+You can [customize the mongodb datasource connection](https://loopback.io/doc/en/lb2/MongoDB-connector.html#customizing-mongodb-configuration-for-testsexamples "customize the mongodb datasource connection")
+
