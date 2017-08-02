@@ -123,13 +123,25 @@ Enter an empty property name to indicate you are done defining properties.
 
 - The model generator will create two files which define the model in the application’s common/models: book.json and book.js.
 - The JSON file specifies all metadata about the entity: properties, relations, validations, roles and method names.
-- The JavaScript file is used to define additional behaviour, and to specify remote hooks to be called before or after certain operations (e.g., create, update, or delete).
+- The JavaScript file is used to define additional behaviour, and to specify remote hooks to be called before or after certain operations (e.g., create, update, or delete). [Loopback documentation for simple api](http://loopback.io/doc/en/lb2/Create-a-simple-API.html "loopback documentation for simple api")
 
+[![](https://raw.githubusercontent.com/nagaraja-bollu/loopback/master/Images/bookLoopbackProjectStructure.png)]()
 
+The three main directories are:
+- /server – Contains node application scripts and configuration files.
+- /client – Contains .js, .html, .css, and all other static files.
+- /common – This folder is common to both the server and the client. Model files go here.
 
+#### Testing Your REST API
 
+API Explorer which is a built-in tool used as a client for the service.
+In a separate window, start MongoDB with:
+`$ mongod`
 
+Run the application with:
+`$ node .`
 
+In your browser, go to http://localhost:3000/explorer/. You can see your entities with the list of operations available. 
 
 
 

@@ -1,0 +1,12 @@
+{
+  "library": {
+    "host": "",
+    "port": 0,
+    "url": "",
+    "database": "library",
+    "password": "",
+    "name": "library",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
