@@ -16,4 +16,10 @@
 ### Architecture
 ![](http://loopback.io/images/9830413.png)
 
-### [Loopback commands](http://loopback.io/doc/en/lb2/Command-line-tools.html#commands "Loopback commands")
+### Create a Library API skeleton
+
+Install the Loopback command line tools through npm:
+
+`$ npm install -g loopback-cli`
+
+This installs the lb command-line tool for scaffolding and modifying LoopBack applications. For more information, see [command-line tools](http://loopback.io/doc/en/lb2/Command-line-tools.html#commands "Loopback commands")
