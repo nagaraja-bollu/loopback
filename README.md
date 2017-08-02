@@ -15,3 +15,6 @@
 
 ### Architecture
 ![](http://loopback.io/images/9830413.png)
+
+### Loopback commands
+[Loopback commands](http://loopback.io/doc/en/lb2/Command-line-tools.html#commands "Loopback commands")
