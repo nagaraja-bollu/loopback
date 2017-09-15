@@ -1,18 +1,7 @@
-# Create a simple API using Loopback/StrongLoop framework
+# Create a simple API using Loopback framework
 
 ### Introduction
- LoopBack is a highly extensible Node.js API framework from IBM. LoopBack APIs are capable of connecting devices, and integrate with Android and AngularJS SDKs for app creation. As for database compatibility, it supports Oracle, Mongo, and SQL. The team behind Express created it, so its built on the framework making it an easy API tool for Express pros.
-
-##### It enables you to:
-
-- Create dynamic end-to-end REST APIs with little or no coding.
-- Access data from Oracle, MySQL, PostgreSQL, MS SQL Server, MongoDB, SOAP and other REST APIs.
-- Incorporate model relationships and access controls for complex APIs.
-- Use built-in push, geolocation, and file services for mobile apps.
-- Easily create client apps using Android, iOS, and JavaScript SDKs.
-- Run your application on-premises or in the cloud.
-
-### [loopback framework](http://loopback.io/doc/en/lb2/#the-loopback-framework "loopback framework")
+Currently, we will write more lines of code for CRUD operations, connections to datasources in Nodejs,  which usually take more time and it may effect on productivity. There are many Nodejs frameworks are available for API development to increase productivity and performance. Among the frameworks,  LoopBack from IBM is a highly extensible Node.js API framework . The team behind Express has created it and it has feature of Android, Angularjs SDKs integration for app creation. It also has database compatibility, supports relational and non-relational databases. Developers can create end-to-end REST APIs with less or no coding.
 
 ### Create a Library API skeleton
 
@@ -144,7 +133,7 @@ In your browser, go to http://localhost:3000/explorer/. You can see your entitie
 [![](https://raw.githubusercontent.com/nagaraja-bollu/loopback/master/Images/apiexplorer.png)]()
 
 ### Conclusion
-With LoopBack you are apt to write less code, compared to Express.js. It eliminates the need to write handlers for every endpoint, supports filters for easy search and pagination, stores code in separate model JS files, much more. Among the top advantages are prompt and easy generation, design and test of code for APIs. It allows you to focus on application-specific problems and business logic, and therefore build secure, well-documented, and high-performance APIs.
+With LoopBack you can write less code, compared to Express.js. It eliminates the need to write handlers for every endpoint, supports filters for easy search and pagination, stores code in separate model JS files. It allows you to focus on application related problems and business logic, and therefore build secure, well-documented, and high-performance APIs which increase productivity as well.
 
 ### References
 http://loopback.io/doc/en/lb3/Getting-started-with-LoopBack.html
